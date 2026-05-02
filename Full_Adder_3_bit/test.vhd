@@ -7,7 +7,7 @@ END test;
  
 architecture Behavioral of test is
 
-    component if_code
+    component if_code ------------------------------------------- rename to test other modules
         Port ( A : in STD_LOGIC_VECTOR (2 downto 0);
                B : in STD_LOGIC_VECTOR (2 downto 0);
                Cin : in STD_LOGIC;
@@ -23,7 +23,7 @@ architecture Behavioral of test is
 
 begin
 
-    UUT: if_code
+    UUT: if_code  -------------------------------------------- rename to test other modules
         port map(
             A => A,
             B => B,
