@@ -117,9 +117,9 @@ This creates a scalable AND-gate cascade for every TFF input.
 
 A MOD-N counter counts from:
 
-\[
-0 \rightarrow MOD\_VALUE - 1
-\]
+
+0 -> MOD_VALUE - 1
+
 
 then wraps back to zero.
 
