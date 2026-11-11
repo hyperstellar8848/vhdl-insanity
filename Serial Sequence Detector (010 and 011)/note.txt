@@ -1,4 +1,4 @@
-# Serial Sequence Detector (010 and 011)
+Serial Sequence Detector (010 and 011)
 
 This project implements a serial sequence detector using VHDL and a Finite State Machine (FSM).
 
