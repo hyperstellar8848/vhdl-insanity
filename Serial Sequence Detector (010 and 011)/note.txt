@@ -1,0 +1,11 @@
+# Serial Sequence Detector (010 and 011)
+
+This project implements a serial sequence detector using VHDL and a Finite State Machine (FSM).
+
+The circuit receives a serial binary input (din) and continuously checks the incoming bits to identify two specific patterns: 010 and 011.
+
+It uses five states to track the input sequence and determine whether either pattern has been detected. Two output signals, y010 and y011, indicate the detection of their corresponding patterns by going HIGH when a match is found.
+
+The design also includes a clock signal for synchronization and an asynchronous reset to return the circuit to its initial state.
+
+A testbench is provided to verify the functionality of the design. It tests both patterns, overlapping sequences, detection of consecutive patterns, and reset behavior during operation. Assertions are used to automatically check whether the outputs match the expected results.
