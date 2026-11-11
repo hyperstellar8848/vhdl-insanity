@@ -60,6 +60,10 @@ The main components of the array multiplier include:
 3. **55 one-bit full adders:** Used to perform binary addition and handle carry propagation throughout the multiplier architecture.
 4. **Two binary inputs:** One 6-bit input and one 5-bit input.
 5. **One binary output:** An 11-bit output representing the final multiplication result.
-
-<img src="waveform1.jpg">
-<img src="waveform2.jpg">
+--- 
+<br>
+9 * 0 = 0
+<img src="waveform1.jpg" width="700">
+<br>
+11 * 6 = 66
+<img src="waveform2.jpg" width="700">
